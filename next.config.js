@@ -1,7 +1,10 @@
 const path = require('path')
 module.exports = {
+	images: {
+    domains: ['dummyimage.com'],
+	},
   reactStrictMode: true,
-	trailingSlash: false,
+	trailingSlash: true,
 	webpackDevMiddleware: config => {
 		config.watchOptions = {
 			poll: 1000,
